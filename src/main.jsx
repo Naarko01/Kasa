@@ -10,13 +10,13 @@ createRoot(document.getElementById("root")).render(
 		<Router>
 			<Header />
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/housing/:id" element={<Housing />} />
-				<Route path="/error" element={<ErrorPage />} />
+				<Route path="/Kasa/" element={<Home />} />
+				<Route path="/Kasa/about" element={<About />} />
+				<Route path="/Kasa/housing/:id" element={<Housing />} />
+				<Route path="/Kasa/error" element={<ErrorPage />} />
 				<Route path="*" element={<ErrorPage />} />
 			</Routes>
 			<Footer />
 		</Router>
-	</StrictMode>
+	</StrictMode>,
 );
