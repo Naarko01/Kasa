@@ -8,7 +8,7 @@ function ErrorPage() {
 			<p className="errorText">
 				Oups! La page que vous demandez n'existe pas.
 			</p>
-			<Link to="/" className="errorRedirectLink">
+			<Link to="/Kasa/" className="errorRedirectLink">
 				Retourner sur la page d'accueil
 			</Link>
 		</main>

@@ -9,7 +9,7 @@ function Header() {
 			<img src={logo} alt="" className="container_logo" />
 			<nav className="container_link">
 				<Link
-					to="/"
+					to="/Kasa/"
 					className={`container_link--home${
 						location.pathname === "/" ? " selected" : ""
 					}`}
@@ -17,7 +17,7 @@ function Header() {
 					Accueil
 				</Link>
 				<Link
-					to="/about"
+					to="/Kasa/about"
 					className={`container_link--about${
 						location.pathname === "/about" ? " selected" : ""
 					}`}

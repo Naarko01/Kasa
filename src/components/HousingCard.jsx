@@ -3,7 +3,7 @@ import "../styles/HousingCard.scss";
 
 function HousingCard({ title, coverUrl, id }) {
 	return (
-		<Link className="card" to={`/housing/${id}`}>
+		<Link className="card" to={`/Kasa/housing/${id}`}>
 			<div className="card_filter"></div>
 			<article className="card_content">
 				<img className="card_content--cover" src={coverUrl} alt="" />
